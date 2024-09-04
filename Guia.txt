@@ -1,0 +1,7 @@
+Ejecuta el código Python para iniciar el juego de bingo.
+El programa generará automáticamente un cartón de bingo con 5 números aleatorios entre 1 y 75 para el usuario.
+El programa también generará 5 números aleatorios para el bingo.
+El objetivo es acertar la mayor cantidad de números posibles entre los generados para el usuario y los números del bingo.
+El programa mostrará cuántos números acertaste.
+Si aciertas más de 3 números, recibirás un mensaje de felicitaciones.
+¡Diviértete jugando al bingo!
