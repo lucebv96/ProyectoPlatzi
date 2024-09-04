@@ -1,5 +1,5 @@
 import random
-
+#Este es una modif desde Github
 def generar_numeros_usuario():
     # Genera 5 números aleatorios entre 1 y 20 para el usuario
     return random.sample(range(1, 21), 5)
