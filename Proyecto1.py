@@ -17,6 +17,24 @@ def jugar_bingo():
     numeros_bingo = generar_numeros_bingo()
     print(f"Números del Bingo: {numeros_bingo}")
 
-  
+
+
+# Comprobar coincidencias
+    coincidencias = set(numeros_usuario).intersection(numeros_bingo)
+    print(f"Números acertados: {list(coincidencias)}")
+
+    # Pedir al usuario que ingrese la cantidad de aciertos
+    aciertos_usuario = len(coincidencias)
+    print(f"Tienes {aciertos_usuario} acierto(s).")
+
+    # Verificar si hay más de 3 aciertos
+    if aciertos_usuario > 3:
+        print("¡Felicidades! Has acertado más de 3 números.")
+    else:
+        print("¡Sigue intentando!")
+
+
+   
 # Ejecutar el juego
 jugar_bingo()
+
